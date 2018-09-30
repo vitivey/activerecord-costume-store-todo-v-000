@@ -7,12 +7,10 @@
 # Define a change method in which to do the migration
 # In this change method, create columns with the correct names and
 # value types according to the spec
-require "pry"
 class CreateCostumes< ActiveRecord::Migration
 
   def change
     create_table :costume do |t|
-      binding.pry
       t.string :name
       t.float :price
       t.string :url
