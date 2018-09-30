@@ -1,6 +1,6 @@
 # Create your CostumeStore class here
 
-class CostumeStore < ActiveRecord::Migration
+class CostumeStore < ActiveRecord::Base
 
 
 end
