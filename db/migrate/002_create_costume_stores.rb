@@ -13,5 +13,5 @@ class CostumeStores < ActiveRecord::Migation[4.2]
           t.string :closing_time
       end
   end
-  
+
 end
